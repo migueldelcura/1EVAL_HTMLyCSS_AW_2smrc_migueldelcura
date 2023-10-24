@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Ejercicio de formularios</title>
+    <style>
+      body{
+        background-color: brown;
+      }
+      p{color:blue;}
+    </style>
+  </head>
+  <body>
+    <!-- Autor: profesor -->
+    <h1>Ejercicio Formularios</h1>
+    <form action="procesar.php" method="get">
+      <p class="especial">Nombre * <input type="text" name="nombre" id="nombre1" required /></p>
+      <p id="verde">Apellido * <input type="text" name="Apellido" id="Apellido1" /></p>
+      <p class="especial">Fecha de nacimiento * <input type="datetime" name="" id="" /></p>
+      <p>* Campos obligatorios</p>
+      <h5>Prueba</h5>
+      <input type="submit" value="Enviar2">
+      <input type="reset" value="Borrar">
+    </form>
+  </body>
+</html>
