@@ -1,0 +1,65 @@
+*{
+    background-color: #A39595;
+    box-sizing: border-box;
+}
+
+/*Estilos de la barra lateral*/
+
+.fixed-sidebar{
+    border: 2px black solid;
+    width: 60px;
+    height: 300px;
+    padding: 2px;
+    position: fixed;
+    top:200px;
+    left: 2px ;
+}
+
+div.fixed-sidebar img{
+    width: 50px;
+    height: 50px;
+}
+
+div.fixed-sidebar ul{
+    list-style-type: none;
+}
+
+/*Estilos del área principal*/
+
+.nav-item{
+    background-color: #2D2C2C;
+    display: inline-block;
+}
+
+.container{
+    border: 2px black solid;
+    background-color: lightgreen;
+    width: 80%;
+    height: 500px;
+    position: relative;
+    top:50px;
+    left: 90px ;   
+}
+
+nav{
+    background-color: #2D2C2C;
+}
+
+figure img{
+    width: 250px;
+    height: 200px;
+
+}
+
+figure{
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+    border: 2px black solid;
+    width: 300px;
+}
+
+figcaption{
+    background-color: white;
+    text-align: center;
+}
