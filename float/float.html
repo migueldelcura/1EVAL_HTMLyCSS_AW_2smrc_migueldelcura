@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>clear (1). Posicionamiento flotante. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    img.izq{
+        float: left;
+    }
+    img.dcha{
+        float: right;
+    }
+    hr {
+      clear:left;
+    }
+  </style>
+</head>
+
+<body>
+  <p><img class="izq" src="img/gnu-head-sm.jpg" title="Logotipo de GNU (GNU is Not Unix)" alt="Logotipo de GNU (GNU is Not Unix)" width="129" height="122" class="izquierda">El logotipo de GNU debe "flotar" a la izquierda y el párrafo debe fluir a su derecha.
+    GNU es un sistema operativo de tipo Unix, así como una gran colección de programas informáticos que componen al sistema, desarrollado por y para el Proyecto GNU y auspiciado por la Free Software Foundation. Está formado en su totalidad por software libre, mayoritariamente bajo términos de copyleft. GNU es el acrónimo recursivo de "GNU's Not Unix" (en español: GNU no es Unix),1​2​ nombre elegido debido a que GNU sigue un diseño tipo Unix y se mantiene compatible con este, pero se distingue de Unix por ser software libre y por no contener código de Unix.1​3​4​5​
+
+    El ñu es el logo o mascota de este proyecto.6​
+    
+    El desarrollo de GNU ha sido liderado desde su inicio en 1983 por Richard Stallman,1​7​ auxiliado por un número de académicos, programadores voluntarios y formalmente empleados, con el objetivo de crear el primer sistema operativo completamente libre. A fecha de diciembre de 2013 todavía no hay un lanzamiento oficial de GNU1​8​9​10​ pero el proyecto ha sido responsable por la creación de varios programas ampliamente utilizados; como los compiladores GCC, el intérprete de comandos Bash, el editor de texto Emacs e incluso el escritorio GNOME. La Free Software Foundation considera que el objetivo principal del Proyecto GNU ha sido alcanzado con la ayuda de otros programas de software libre ajenos a GNU, por lo que el desarrollo de un sistema operativo puramente GNU se ha vuelto una tarea secundaria al crecimiento y manutención del sistema existente (GNU/Linux), y secundaria a la garantía de la libertad de sus usuarios y la promoción de tales ideas. Richard Stallman así como muchos otros partidarios del movimiento del software libre considera al sistema operativo GNU como «un medio técnico para un fin social».11​
+    
+    El proyecto GNU originalmente pretendía reemplazar el núcleo de Unix con su propio núcleo llamado GNU Hurd, pero las implementaciones comunes de GNU siempre han usado Linux en lugar de Hurd; combinación a la cual se le llama GNU/Linux o simplemente Linux.12​13​14​ Linux-libre se ha convertido en un paquete oficial de GNU, a la par de Hurd, con el afán de limpiar las partes privativas en el núcleo Linux genérico e incentivar a las distribuciones de GNU/Linux a que usen dicha versión. Nótese que el Proyecto GNU denomina a GNU como "sistema operativo" en el sentido coloquial del término (similar al de "distribución"), como sucede cuando se habla de sistemas operativos como Windows, Mac OS, Android e incluso Unix. Mientras tanto, en un sentido más técnico algunos programas particulares como Linux y GNU Hurd también son llamados sistemas operativos, pero en calidad de kernels o núcleos.</p>
+
+  <hr>
+  <p><img class="dcha" src="img/tux.jpg" alt="Tux, la mascota de Linux" title="Tux, la mascota de Linux" width="103" height="122" class="izquierda">El logotipo de Linux, Tux, debe "flotar" a la izquierda y el párrafo debe fluir a su derecha. Seguramente tanto la imagen como el párrafo están a la derecha del logotipo de GNU.</p>
+  <hr>
+</body>
+</html>
